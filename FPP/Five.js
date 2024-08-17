@@ -30,3 +30,21 @@ console.log("result4", result4);
 
 //reduce see more
 //all inbuilt HOF see more
+
+
+/*
+Array.prototype.myReduce = function(callback, initialValue){
+  
+  let acc = initialValue ? initialValue : this[0];
+  for( let index = initialValue ? 0 : 1 ; index<this.length;index++){
+     acc = callback(acc, this[index], index, this)
+  }
+  return acc;
+}
+
+let ans = arr.myReduce(callback,0)
+console.log("ans", ans);
+
+
+
+*/

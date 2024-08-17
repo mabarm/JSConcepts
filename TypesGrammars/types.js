@@ -59,3 +59,25 @@ console.log(isNaN(yourAge));
 console.log("Number.isNaN(sonAge)", Number.isNaN(sonAge));
 console.log(Number.isNaN("her age"));
 console.log(Number.isNaN(yourAge));
+
+/*
+
+
+var hey = [1,[2,[3, 4]]]
+const r =  hey.toString()
+const y = "1,2,3,4"
+console.log("jy", hey, r, y == r)
+
+*/
+
+/*
+const d = new Date("12");
+const y = d.toString()
+console.log(d==y)
+*/
+
+/*
+You might consider undefined to represent a system-level, unexpected, or error-like absence of value and null to represent program-level, normal, or expected absence of value.
+
+via JavaScript:The Definitive Guide
+*/
